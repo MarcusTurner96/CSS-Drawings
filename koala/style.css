@@ -1,0 +1,75 @@
+body {
+	background: #25A9FC;
+}
+.box {
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 600px;
+	height: 420px;
+}
+.box * {
+	position: absolute;
+	border-radius: 50%;
+}
+.head {
+	top: 16.5%;
+	left: 25%;
+	width: 50%;
+	height: 67%;
+	background: #A6BECF;
+}
+.left-ear, .right-ear {
+	background: #A6BECF;
+	width: 60%;
+	height: 65%;
+	top: 5%;
+	z-index: -1;
+}
+.left-ear {
+	left: -20%;
+}
+.right-ear {
+	right: -20%;
+}
+.inner-ear {
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 10%;
+	background: #819CAF;
+}
+.left-eye, .right-eye {
+	background: white;
+	width: 30%;
+	height: 33%;
+	top: 25%;
+}
+.left-eye {
+	left: 21%;
+}
+.right-eye {
+	right: 21%;
+}
+.pupil {
+	background: black;
+	width: 28%;
+	height: 30%;
+	top: 35%;
+	left: 36%;
+}
+.nose {
+	background: #BE845F;
+	width: 25%;
+	height: 40%;
+	left: 37%;
+	top: 45%;
+}
+.smile {
+	border-radius: 40%;
+	top: 45%;
+	left: 30%;
+	height: 30%;
+	width: 40%;
+	border-bottom: 2px solid #222;	
+}
